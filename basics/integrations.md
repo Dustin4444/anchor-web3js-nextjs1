@@ -1,0 +1,13 @@
+---
+icon: plug-circle-plus
+---
+
+# Integrations
+
+GitBook integrations allow you to connect your GitBook spaces to some of your favorite platforms and services. You can install integrations into your GitBook page from the _Integrations_ menu in the top left.
+
+<figure><img src="https://gitbookio.github.io/onboarding-template-images/integrations-hero.png" alt=""><figcaption></figcaption></figure>
+
+### Types of integrations
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th><th data-type="content-ref"></th><th data-type="content-ref"></th><th data-type="files"></th><th><select></select></th><th data-type="checkbox"></th><th data-type="number"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Analytics</strong></td><td>Track analytics from your docs</td><td><a href="../https:/app.gitbook.com/o/yepce9RmFBCOthK7uQ9k/s/CwCqH1AUf2ZMW1MhPvLv/~/diff/~/changes/1/basics/openapi/#jump-right-in">#jump-right-in</a></td><td><a href="../https:/app.gitbook.com/o/yepce9RmFBCOthK7uQ9k/s/CwCqH1AUf2ZMW1MhPvLv/~/diff/~/changes/1/basics/openapi/">openapi</a></td><td></td><td></td><td></td><td>false</td><td>null</td><td></td><td><a href="https://www.gitbook.com/integrations#analytics">https://www.gitbook.com/integrations#analytics</a></td><td></td><td></td></tr><tr><td><strong>Support</strong></td><td>Add support widgets to your docs</td><td><a href="integrations.md">integrations.md</a></td><td></td><td></td><td></td><td></td><td>false</td><td>null</td><td></td><td><a href="https://www.gitbook.com/integrations#support">https://www.gitbook.com/integrations#support</a></td><td></td><td></td></tr><tr><td><strong>Interactive</strong></td><td>Add extra functionality to your docs</td><td><a href="../getting-started/quickstart.md">quickstart.md</a></td><td><a href="../getting-started/publish-your-docs.md">publish-your-docs.md</a></td><td></td><td></td><td></td><td>false</td><td>null</td><td></td><td><a href="https://www.gitbook.com/integrations#interactive">https://www.gitbook.com/integrations#interactive</a></td><td></td><td></td></tr><tr><td><strong>Visitor Authentication</strong></td><td>Protect your docs and require sign-in</td><td></td><td><a href="https://app.gitbook.com/s/CwCqH1AUf2ZMW1MhPvLv/getting-started">Getting Started</a></td><td></td><td></td><td></td><td>false</td><td>null</td><td></td><td><a href="https://www.gitbook.com/integrations#visitor-authentication">https://www.gitbook.com/integrations#visitor-authentication</a></td><td></td><td></td></tr></tbody></table>

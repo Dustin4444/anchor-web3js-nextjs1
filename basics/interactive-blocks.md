@@ -38,7 +38,9 @@ Expandable blocks are helpful in condensing what could otherwise be a lengthy pa
 
 ### Drawings
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../https:/app.gitbook.com/o/yepce9RmFBCOthK7uQ9k/s/CwCqH1AUf2ZMW1MhPvLv/~/diff/~/changes/1/basics/openapi/.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+
+##
 
 ### Embedded content
 
