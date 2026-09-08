@@ -2,12 +2,12 @@
 icon: image-landscape
 ---
 
-# Images & media
+# Contract Addresses
 
-GitBook allows you to add images and media easily to your docs. Simply drag a file into the editor, or use the file manager in the upper right corner to upload multiple images at once.
-
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/images-hero.png" alt=""><figcaption><p>Add alt text and captions to your images</p></figcaption></figure>
-
-{% hint style="info" %}
-You can also add images simply by copying and pasting them directly into the editor — and GitBook will automatically add it to your file manager.
-{% endhint %}
+| Token / Contract   | Chain | Address                                      |
+| ------------------ | ----- | -------------------------------------------- |
+| pathUSD            | Tempo | `0x20c0000000000000000000000000000000000000` |
+| USDC.e             | Tempo | `0x20C000000000000000000000b9537d11c60E8b50` |
+| Native USDC        | Base  | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` |
+| Stargate USDC pool | Base  | `0x27a16dc786820B16E5c9028b75B99F6f604b5d26` |
+| Tempo DEX          | Tempo | `0xdec0000000000000000000000000000000000000` |

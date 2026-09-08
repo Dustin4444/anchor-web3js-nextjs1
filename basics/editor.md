@@ -2,36 +2,28 @@
 icon: pen-to-square
 ---
 
-# Editor
+# Dual-Protocol Gating (x402 + MPP)
 
-GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
+Each payment-gated route can settle via:
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/editor-hero.png" alt=""><figcaption></figcaption></figure>
+| Protocol | Chain      | Chain ID | Notes                                                |
+| -------- | ---------- | -------- | ---------------------------------------------------- |
+| x402     | Base (EVM) | `8453`   | Standard x402 HTTP 402 challenge/response flow       |
+| MPP      | Tempo      | `4217`   | Machine Payments Protocol — session-based settlement |
 
-### Writing content
+**Key implementation detail:** the `mppx` `Receipt` object exposes `.reference`, **not** `.id` — a recurring gotcha when wiring up settlement-status lookups.
 
-GitBook offers a range of block types for you to add to your content inline — from simple text and tables, to code blocks and more. These elements will make your pages more useful to readers, and offer extra information and context.
+Routes are generated using conventions from the `base-tempo-payment-routes` skill, which scaffolds Next.js App Router routes with dual-protocol gating pre-wired.
 
-Either start typing below, or press `/` to see a list of the blocks you can insert into your page.
+## Design decision: per-route vs. shared `Mppx` instance
 
-### Add a new block
+Most routes share a single `Mppx` instance from `lib/x402.ts`. The **Apify integration is a deliberate exception** — its paid dispatch route uses a **per-route `Mppx.create()` instance** to isolate its settlement hooks from the shared instance. This trade-off (isolation vs. simplicity/shared state) is worth keeping in mind before copying that pattern elsewhere.
 
-{% stepper %}
-{% step %}
-#### Open the insert block menu
+## MPP protocol research notes
 
-Press `/` on your keyboard to open the insert block menu.
-{% endstep %}
+Background research feeding the MPP integration includes:
 
-{% step %}
-#### Search for the block you need
-
-Try searching for “Stepper”, for exampe, to insert the stepper block.
-{% endstep %}
-
-{% step %}
-#### Insert and edit your block
-
-Click or press Enter to insert your block. From here, you’ll be able to edit it as needed.
-{% endstep %}
-{% endstepper %}
+* Sessions v2
+* TIP-1034 (reserve precompile)
+* `settlementSchedule`
+* `tempo.session.charge` / `.settle` / `.settleBatch`

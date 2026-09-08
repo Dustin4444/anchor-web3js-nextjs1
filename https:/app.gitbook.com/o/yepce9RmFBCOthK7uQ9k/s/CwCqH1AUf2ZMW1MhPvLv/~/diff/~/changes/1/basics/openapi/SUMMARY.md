@@ -5,17 +5,13 @@
 ## Getting Started
 
 * [Quickstart](../../../../../../../../../../../../../getting-started/quickstart.md)
-* [Publish your docs](../../../../../../../../../../../../../getting-started/publish-your-docs.md)
+* [Architecture Overview](../../../../../../../../../../../../../getting-started/publish-your-docs.md)
 
 ## Basics
 
-* [Editor](../../../../../../../../../../../../../basics/editor.md)
-* [Markdown](../../../../../../../../../../../../../basics/markdown.md)
-* [Images & media](../../../../../../../../../../../../../basics/images-and-media.md)
-* [Interactive blocks](../../../../../../../../../../../../../basics/interactive-blocks.md)
+* [Dual-Protocol Gating (x402 + MPP)](../../../../../../../../../../../../../basics/editor.md)
+* [Data Access Layer](../../../../../../../../../../../../../basics/markdown.md)
+* [Contract Addresses](../../../../../../../../../../../../../basics/images-and-media.md)
+* [Open Items](../../../../../../../../../../../../../basics/interactive-blocks.md)
 * [OpenAPI](../../../../../../../../../../../../../basics/openapi.md)
 * [Integrations](../../../../../../../../../../../../../basics/integrations.md)
-
-***
-
-* [Interactive blocks](../../../../../../../../../../../../../basics/interactive-blocks.md)
